@@ -1,0 +1,40 @@
+*{
+    direction: rtl;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    
+}
+table{
+    text-align: center;  
+   margin: auto;
+}
+table tr td, th{
+    padding: 5px 10px;
+}
+table tr:nth-child(even){
+    background-color: gold;
+}
+input{
+    cursor: pointer;
+    padding: 5px;
+    margin: 0px 5px;
+    border-radius: 5px;
+    border: 0px;
+}
+.green{
+    background-color: rgb(17, 204, 17);
+}
+.red{
+    background-color: red;
+}
+table tr th{
+    background-color: rgb(37, 37, 35);
+    color: gold;
+    border-radius: 6px;
+}
+.gold{
+    background-color: gold;
+}
+input:hover{
+   filter: drop-shadow(2px 4px 6px black);
+}
